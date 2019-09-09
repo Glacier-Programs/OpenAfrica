@@ -23,7 +23,7 @@ app.post("/submit", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  let page = "<h1>Test</h1>";
+  let page = `<p>${JSON.stringify(activePages.getAll())}</p>`;
   
   res.status(200).send(page);
 });

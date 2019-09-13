@@ -5,9 +5,13 @@
   border-style:solid;
   text-align:center;
   margin-top:5px;
-  margin-left:5px;
+  margin-left:8%;
   margin-right:5px;
-  padding:3px:
+  padding-bottom:3px;
+  padding-left:3px;
+  padding-right:3px;
+  max-width:90%;
+  min-width:50%
 }
 
 #header{
@@ -42,6 +46,8 @@
   border-style:solid;
   text-align:center;
   padding-bottom:4px;
+  padding-left:2px;
+  padding-right:2px;
   display:block;
   margin-top:5px;
 }
@@ -67,13 +73,28 @@
   text-decoration:none;
   border:none;
   border-radius:12px;
-  background-color:darkgrey;
+  background-color:#EDEDED;
 }
 
 .links:hover{
   background-color:white;
 }
 
-.links_external{
-  border:none;
+.links_other_page{
+  border:hidden;
+  border-bottom:2px solid black;
+  background-color:white;
+  text-decoration:none;
+  color:black;
+  display:block;
+}
+
+.links_other_page:hover{
+  background-color:#EDEDED;
+  text-decoration:underlined;
+  color:white;
+}
+
+#shadow{
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.19);
 }

@@ -52,7 +52,7 @@
   margin-top:5px;
 }
 
-.sup{
+sup{
   /* This applies to all supersript since superscript can only really be used for citations */
   text-decoration:none;
   color:black;

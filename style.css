@@ -10,7 +10,7 @@
   padding-bottom:3px;
   padding-left:3px;
   padding-right:3px;
-  max-width:90%;
+  max-width:81.5%;
   min-width:50%
 }
 
@@ -92,7 +92,7 @@ sup{
 .links_other_page:hover{
   background-color:#EDEDED;
   text-decoration:underlined;
-  color:white;
+  color:black;
 }
 
 #shadow{
